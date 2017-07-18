@@ -7,8 +7,7 @@
             "notificationAddress" : "vertx.circuit-breaker",
             "notificationPeriod" : 2000,
             "resetTimeout" : 5000,
-            "maxRetries" : 0,
-            "forceOpen" : false
+            "maxRetries" : 0            
         },
 		"endpoint" : {
 			"host" : "www.google.com",
@@ -16,7 +15,7 @@
 			"path" : "/",
 			"ssl"  : false 
 		},
-		"myConfigField" : "myValueX"
+		"killswitch" : false
     },
     "vertxOptions":{
 		"eventLoopPoolSize":8,
